@@ -59,3 +59,32 @@
     height: 180px;
     border-radius: 50%;
 }
+
+/* Contact me section */
+.contact-me {
+    background-color: #393E46;
+    color: #fff;
+    display: flex;
+    padding: 30px 0 30px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-me h2 {
+    font-size: 40px;
+}
+
+.contact-me a {
+    text-decoration: none;
+    background-color: #FB2576;
+    color: #fff;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact-me a:hover {
+    background-color: #000;
+}
