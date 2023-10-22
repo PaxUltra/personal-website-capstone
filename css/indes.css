@@ -5,7 +5,6 @@
 
 .grid-container {
     display: grid;
-    background-color: red;
     grid-template-rows: 60vh 40vh 1fr;
     font-family: sans-serif;
 }
@@ -46,10 +45,17 @@
 
 /* About me section */
 .about-me {
-    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px
 }
 
-.contact-me {
-    background-color: orange;
-    padding: 20px;
+.about-text p {
+    max-width: 350px;
+}
+
+.about-me img {
+    height: 180px;
+    border-radius: 50%;
 }
