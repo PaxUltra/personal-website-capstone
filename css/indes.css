@@ -7,6 +7,7 @@
     display: grid;
     grid-template-rows: 60vh 40vh 1fr;
     font-family: sans-serif;
+    text-align: center;
 }
 
 /* Hero section */
@@ -87,4 +88,17 @@
 
 .contact-me a:hover {
     background-color: #000;
+}
+
+/* Responsive */
+
+/* Very small devices */
+@media screen and (max-width: 600px) {
+    .about-me {
+        flex-direction: column;
+    }
+
+    .about-text {
+        order: 1;
+    }
 }
