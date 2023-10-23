@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+/* Header section */
+.header {
+    color: #fff;
+    background-color: #393E46;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.header h1 {
+    font-size: 90px;
+    padding-right: 30px;
+    border-right: #FB2576 solid 2px;
+}
+
+.header ul {
+    list-style: none;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.contact-item {
+    color:#FB2576;
+    font-weight: bold;
+}
+
+/* Resume body */
+.body-flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.resume-body {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 0px; */
+    display: grid;
+    grid-template-columns: max-content;
+    gap: 10px;
+}
+
+/* Experience */
+.experience {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.experience h2 {
+    font-size: 27px;
+}
+
+.job-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.job-header p {
+    font-size: 15px;
+}
+
+.duties-list {
+    padding-left: 30px;
+    border-left: #FB2576 solid 2px;
+    line-height: 23px;
+}
+
+/* Skills */
+.skills {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.skills h2 {
+    font-size: 27px;
+}
+
+.skills-list {
+    padding-left: 30px;
+    border-left: #FB2576 solid 2px;
+    line-height: 23px;
+}
+
+/* Education */
+.education h2 {
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+.education p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.degree-info {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #393E46;
+    color:#FB2576;
+    padding: 20px 10px 20px 0;
+}
+
+footer p {
+    font-size: 20px;
+}
